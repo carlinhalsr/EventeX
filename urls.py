@@ -9,7 +9,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = patterns('',
     
     ( r'^$', homepage ),
-    ( r'.', homepage ),
+
 
     # Examples:
     # url(r'^$', 'eventex.views.home', name='home'),
